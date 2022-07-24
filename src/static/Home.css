@@ -38,7 +38,7 @@
   top: 20%;
 }
 
-#Bulletin {
+#Forum {
   position: absolute;
   left: calc(80% - 100px);
   top: 20%;
@@ -68,11 +68,8 @@
 }
 
 .linksquareheader:hover {
-  color: #8caf8a;
+  color: greenyellow;
   font-size: 35pt;
-
-  position: relative;
-  top: 42.5%;
 }
 
 .linksquaredesc {
@@ -80,4 +77,8 @@
   top: 50%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 17pt;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,0 +1,33 @@
+.rules {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+    text-shadow: 4px 4px 10px black;
+}
+
+.backgroundimg {
+    width: 100%;
+    height: 100%;
+  
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.Back {
+    color: white;
+    font-size: 30pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 4px 4px 10px black;
+    text-decoration: none;
+  
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.Back:hover {
+    color: greenyellow;
+}
