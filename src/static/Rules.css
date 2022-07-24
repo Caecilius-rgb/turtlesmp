@@ -16,18 +16,3 @@
     z-index: -1;
 }
 
-.Back {
-    color: white;
-    font-size: 30pt;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 4px 4px 10px black;
-    text-decoration: none;
-  
-    position: absolute;
-    top: 1%;
-    left: 1%;
-}
-
-.Back:hover {
-    color: greenyellow;
-}
