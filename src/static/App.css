@@ -1,0 +1,83 @@
+.backgroundimg {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.whole-title {
+  color: white;
+  font-size: 40pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  text-shadow: 4px 4px 10px black;
+}
+
+.linksquare {
+  border-radius: 20px 20px 20px 20px;
+  background: white;
+  padding: 20px;
+  width: 200px;
+  height: 500px;
+  z-index: -1;
+  box-shadow: 4px 4px 10px black;
+}
+
+#Factions {
+  position: absolute;
+  left: calc(20% - 100px);
+  top: 20%;
+}
+
+#Rules {
+  position: absolute;
+  left: calc(50% - 100px);
+  top: 20%;
+}
+
+#Bulletin {
+  position: absolute;
+  left: calc(80% - 100px);
+  top: 20%;
+}
+
+.turtlelogo {
+  z-index: -1;
+
+  position: fixed;
+
+  width: 200px;
+  height: 200px;
+
+  position: fixed;
+  top: calc(20% + 20px);
+}
+
+.linksquareheader {
+  color: white;
+  font-size: 30pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  text-shadow: 4px 4px 10px black;
+
+  position: relative;
+  top: 45%;
+}
+
+.linksquareheader:hover {
+  color: #8caf8a;
+  font-size: 35pt;
+
+  position: relative;
+  top: 42.5%;
+}
+
+.linksquaredesc {
+  position: relative;
+  top: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17pt;
+}
