@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Minecraftia;
+    src: url('./fonts/Minecraftia.ttf');
+}
+
+
 .backgroundimg {
     width: 100%;
     height: 100%;
@@ -24,9 +30,19 @@
 
 .Backmenu {
     top: 0%;
+
     width: 100%;
     height: 55px;
+
     background-color: #b8b8b8;
 
     box-shadow: 0px 7px #727272;
+}
+
+.Backmenutxt {
+    font-family: 'Minecraftia';
+    font-size: 20pt;
+
+    position: ab;
+    top: 50%;
 }

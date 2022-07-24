@@ -9,7 +9,7 @@ class Chatbox extends React.Component{
         <div className="enclosure">
         </div>
         <div className='Backmenu'>
-            <a className='Back' href='/'>Back</a>
+            <a className='Backmenutxt' href='/'> Back</a>
         </div>
       </div>
     );
